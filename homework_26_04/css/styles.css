@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#registration-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    margin: 100px;
+
+    position: relative;
+    width: 420px;
+    height: 426px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(40, 41, 61, 0.08), 0px 20px 32px rgba(96, 97, 112, 0.24);
+    border-radius: 20px;
+}
+
+.header h1 {
+    width: 356px;
+    height: 32px;
+
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 32px;
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+    margin-bottom: 24px;
+    margin-top: 40px;
+}
+
+.e-mail input,
+.password input {
+    padding: 14px 16px;
+    width: 356px;
+    height: 48px;
+    background-color: #FFFFFF;
+    border: 1px solid #CFD8DC;
+    border-radius: 12px;
+    font-family: 'Nunito', sans-serif;
+    font-size: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.e-mail input {
+    margin-bottom: 8px;
+}
+
+.password input {
+    margin-bottom: 24px;
+}
+
+img {
+    position: absolute;
+    right: 14px;
+    top: 14px;
+}
+
+.text p {
+    width: 356px;
+    height: 48px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #7B8E98;
+    margin-bottom: 24px;
+}
+
+button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 24px;
+
+    width: 356px;
+    height: 48px;
+
+    background: #FFFFFF;
+    border-radius: 55px;
+    border: 1px solid #CFD8DC;
+
+    cursor: pointer;
+}
+
+button p {
+    width: 161px;
+    height: 20px;
+
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1a1a1a;
+}
+
+.first-buttom {
+    margin-bottom: 8px;
+}
+
+.second-buttom {
+    margin-bottom: 24px;
+}
+
+
+button:hover {
+    background: #FFE44D;
+    border: 0;
+}
+
+
+form input:focus-visible {
+    outline: none;
+    border-color: #FFE44D;
+    caret-color: #FFE44D;
+}
